@@ -1,6 +1,89 @@
 $font:30px;
-$margin-left:200px;
+$margin-left:400px;
+$width:150px;
+$height:40px;
 .header a{
     font-size: $font;
+    font-weight: 500;
     margin-right: $margin-left;
+}
+body{
+    font-family: sans-serif;
+    padding: 30px;
+}
+.header button{
+    width:$width;
+    height:$height;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px 5px;
+    color: grey;
+    background-color: white;
+}
+.img_main{
+    margin-bottom: -150px;
+    margin-top: 40px;
+    position: inherit;
+    z-index: 1;
+    border-radius: 5px;
+}
+.img_circle{
+    margin-left: -300px;
+    margin-top: 00px;
+}
+.stream{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border: 1px solid red;
+    margin-left: 382px;
+    border-radius: 5px;
+    margin-top:50px;
+    position: absolute;
+    z-index: 1;
+   
+    text-align: center;
+}
+.txt{
+    margin-top: 200px;
+}
+.txt a{
+    font-size: 45px;
+    opacity: 0.7;
+}
+.txt p{
+    font-size: 25px;
+    opacity: 0.7;
+    margin-bottom: -60px;
+}
+.img_facebook, .img_youtube{
+    background-color: grey;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -20px;
+}
+.img_facebook{
+    margin-left: 400px;
+    margin-right: 20px;
+}
+.round{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: white;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    margin-left: -60px;
+    margin-top: 10px;
+}
+.jonli{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    margin-left: -25px;
 }
